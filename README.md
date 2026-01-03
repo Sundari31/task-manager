@@ -97,17 +97,17 @@ project-root/
 
 ## ▶️ How to Run Locally
 # Clone the repository
-git clone https://github.com/your-username/your-repo-name.git
+ git clone https://github.com/your-username/your-repo-name.git
 
 # Backend setup
-cd server
-npm install
-npm run dev
+ cd server
+ npm install
+ npm run dev
 
 # Frontend setup
-cd ../client
-npm install
-npm run dev
+ cd ../client
+ npm install
+ npm run dev
 
 
 # Create a .env file in server:
@@ -132,4 +132,4 @@ JWT_SECRET=your_secret_key
 
 - Use Docker for containerization
 
- -Add Redis for caching frequently accessed data
+- Add Redis for caching frequently accessed data
