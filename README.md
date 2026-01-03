@@ -1,38 +1,38 @@
-🚀 Task Manager – Full Stack Web Application
+# 🚀 Task Manager – Full Stack Web Application
 
 A scalable full-stack task management web application built with React, Node.js, Express, and MongoDB, featuring JWT-based authentication, protected routes, and a modern dashboard UI.
 
-📌 Features
-🔐 Authentication & Security
+# 📌 Features
+## 🔐 Authentication & Security
 
-User Registration & Login
+- User Registration & Login
 
-JWT-based authentication
+- JWT-based authentication
 
-Protected dashboard routes
+- Protected dashboard routes
 
-Secure password hashing using bcrypt
+- Secure password hashing using bcrypt
 
-Token-based authorization middleware
+- Token-based authorization middleware
 
-📊 Dashboard
+## 📊 Dashboard
 
-View user profile information
+- View user profile information
 
-Create, read, and delete tasks
+- Create, read, and delete tasks
 
-Search tasks in real time
+- Search tasks in real time
 
-Persistent data storage
+- Persistent data storage
 
-Logout with secure session cleanup
+- Logout with secure session cleanup
 
-🎨 UI / UX
+## 🎨 UI / UX
 
-Modern, responsive UI built with Tailwind CSS
+- Modern, responsive UI built with Tailwind CSS
 
-Clean card-based layout
+- Clean card-based layout
 
-Icon-based logout for better UX
+- Icon-based logout for better UX
 
-Mobile-friendly design
+- Mobile-friendly design
