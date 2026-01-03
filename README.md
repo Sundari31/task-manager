@@ -95,28 +95,28 @@ project-root/
 
 - DELETE /api/tasks/:id – Delete task
 
-## ▶️ How to Run Locally
-# Clone the repository
+# ▶️ How to Run Locally
+## Clone the repository
  git clone https://github.com/Sundari31/task-manager.git
 
-# Backend setup
+## Backend setup
  cd server
  npm install
  npm run dev
 
-# Frontend setup
+## Frontend setup
  cd ../client
  npm install
  npm run dev
 
 
-# Create a .env file in server:
+## Create a .env file in server:
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-## 🚀 Scalability & Production Considerations
+# 🚀 Scalability & Production Considerations
 
 - Implement refresh tokens for better session handling
 
