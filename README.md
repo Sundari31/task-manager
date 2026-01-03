@@ -94,3 +94,42 @@ project-root/
 - POST /api/tasks – Create task
 
 - DELETE /api/tasks/:id – Delete task
+
+## ▶️ How to Run Locally
+# Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+
+# Backend setup
+cd server
+npm install
+npm run dev
+
+# Frontend setup
+cd ../client
+npm install
+npm run dev
+
+
+# Create a .env file in server:
+
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+
+## 🚀 Scalability & Production Considerations
+
+- Implement refresh tokens for better session handling
+
+- Add role-based access control (RBAC)
+
+- Use pagination for task APIs
+
+- Centralized error handling and logging
+
+- Rate limiting to prevent abuse
+
+- Deploy frontend on Vercel and backend on Render
+
+- Use Docker for containerization
+
+ -Add Redis for caching frequently accessed data
